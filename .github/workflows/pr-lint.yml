@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: seferov/pr-lint-action@master
       with:
-        title-regex: '[A-Z]{2}-([0-9]{3})*) '
+        title-regex: '[A-Za-z-]{2}-([0-9]{3,})'
